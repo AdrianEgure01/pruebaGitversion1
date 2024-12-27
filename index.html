@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pedidos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #ffa600;
+            color: white;
+            font-weight: bold;
+        }
+        .card-body {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .btn-primary {
+            background-color: #0f640c;
+            border-color: #0a6118;
+        }
+        .btn-primary:hover {
+            background-color: #0b5e19;
+            border-color: #06681677;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Gestión de Pedidos</h1>
+        <p>Seleccione una opción para continuar:</p>
+    </div>
+
+    <div class="row">
+        <!-- Agregar Producto -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Agregar Producto
+                </div>
+                <div class="card-body">
+                    <p>Agrega un nuevo producto a la base de datos.</p>
+                    <a href="MENU/AGREGAR_PRODUCTO.php" class="btn btn-primary btn-block">Agregar Producto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lista de Productos -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Lista de Productos
+                </div>
+                <div class="card-body">
+                    <p>Consulta los productos existentes en el sistema.</p>
+                    <a href="MENU/LISTA_DE_PRODUCTOS.php" class="btn btn-primary btn-block">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Crear Pedido -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Crear Pedido
+                </div>
+                <div class="card-body">
+                    <p>Crea un nuevo pedido para los productos seleccionados.</p>
+                    <a href="MENU/CREAR_PEDIDO.php" class="btn btn-primary btn-block">Crear Pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+  
